@@ -6326,7 +6326,7 @@ public void button_mode_createImage() {
     String prompt = JOptionPane.showInputDialog("Digite o texto:");
 
     // Crie a matriz de comando para iniciar o processo Python
-    String[] command = {"python", "meu_programa.py", "--prompt", prompt};
+    String[] command = {"python3", "meu_programa.py", "--prompt", prompt};
 
     // Crie o processo Python e execute-o
     try {
